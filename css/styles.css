@@ -1,0 +1,168 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhai';
+@import 'https://fonts.googleapis.com/css?family=Baloo+Da';
+@import 'https://fonts.googleapis.com/css?family=Roboto:400i';
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+body{ background-color: #FF69B4; 
+}
+
+ td, .menu{
+	background:#ffffff;
+	text-align:center;
+}
+ th, .am_sch, .pm_sch{ 
+ 	font-family: 'Luckiest Guy', cursive;
+	 }
+	.mon, .pm{ 
+		background: #99ffff;
+		text-align:center;
+		}	
+	.tues, .lunch{ 
+		background: #ffcc66;
+		text-align:center;
+		}
+	.wed{ 
+		background: #cc99ff;
+		text-align:center;
+		}
+	.thurs, .am{ 
+		background: #99ff33;
+		text-align:center;
+		}
+	.fri, .breakfast{ 
+		background: #ff9933;
+		text-align:center;
+		}
+	
+h1, h2, h3, h4 {
+	font-family: 'Baloo Bhai', cursive; 
+}
+h1{ 
+ 	text-align: center; 
+  	color:yellow; 
+  	font-size: 50px;
+  	letter-spacing: 5px;
+}
+
+h3{
+	color:yellow;
+	}
+p{
+	text-indent:20px;
+	line-height:30px;}
+
+	form{ 
+	border:10px blue;
+		border-radius:30px;
+		background-color:orchid;
+		
+	}
+	label,h4{
+		color: yellow;
+		}
+		.firstname{
+			padding-right:150px
+			}
+		.lastname{
+			padding-right:100px
+			}	
+			
+			.phone{
+				padding-right:80px
+				}
+			.email{
+				padding-right:40px
+				}	
+		input{
+			margin:10px
+				
+				}
+		
+nav, footer{	
+	background-color: lightgreen;
+	padding: 15px;
+	text-align: center;
+  }
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+#container{
+	width: 100%;
+	height: auto;
+}
+
+footer{
+  clear:both;
+}
+section{
+  background-color:#fff;
+  height:250px;
+  text-align:center;
+}
+main {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#article_left{
+	width: 34%;
+	min-height: 300px;
+	float: left;
+	text-align: left;
+	
+}
+#article_right{
+	float: left;
+	width: 66%;
+	text-align: left;
+	color: #000000;
+	font-family: Roboto, sans-serif;
+	}
+	
+address{
+	color:blue;
+	}
+	
+
+		
+		
+	
+p a img {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+p, article, footer{
+  color:blue;	
+  font-family: 'Roboto', sans-serif;
+  
+	}
+
+
+
+.navlink a {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: none;
+	font-family: 'Baloo Da', cursive;
+}
+
+
+/*Mobile Device*/
+@media (max-width: 380px){
+}
+/*Desktop Veiw*/
+@media (min-width: 950px){
+}
+/*Tabelt Veiw*/
+@media (min-width: 381px) and (max-width: 949px){
+}

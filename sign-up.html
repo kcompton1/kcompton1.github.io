@@ -1,0 +1,159 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/~template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>ABC Daycare</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="container">
+  <header>
+    <h1>ABC Daycare</h1>
+  </header>
+  <nav class="navlink"> <a href="index.html">Home</a> <a href="about.html">About</a> <a href="location.html">Location</a> <a href="sign-up.html">Sign Up</a> <a href="contact-us.html">Contact Us</a> </nav>
+  <section> <img src="http://media.merchantcircle.com/37091625/Daycare_full.jpeg" height="250" alt=""> </section>
+  <main>
+    <article id="article_left"> <!-- InstanceBeginEditable name="sidebarcontent" -->
+    
+      <h3 align="center">Sign up!</h3>
+     
+      <p>For more information about our programs (Infant - Pre-K), you can schedule an tour with us. During the tour, you can meet our wonderful staff to ensure that your child is in good hands. Also you can see our daily schedule for that day and much more. Please fill out the information and a convenient time for us to. <br><br> Hope to seen see you soon!
+      </p>
+    
+    <!-- InstanceEndEditable --></article>
+    
+    <article id="article_right"> <!-- InstanceBeginEditable name="maincontent" -->
+
+<form method="post" action="" name="myForm" onsubmit="return validateForm()">
+
+<h3 align="center">Information</h3>
+
+<h4>Parents:</h4>
+
+
+    <div align="center">
+<div>
+        <label for="name" class="firstName"> Name:*</label> 
+        <label for="name" class="lastName">Name:*</label> <br>
+       </div>
+         <div>
+           <input type="text" id="firstname" name="firstName" value="" placeholder="First Name" required="required"/>
+        
+        <input type="text" id="lastname" name="lastName" value="" placeholder="Last Name" required/>
+         
+       
+</div>
+         </div>
+    
+<br>
+    
+    <div align="center">
+      
+       <label for="phone" class="phone"> Phone Number:<span class="required">*</span> </label>
+    	  
+          
+         <label for="email" class="email">Email Address: <span class="required">*</span> </label><br>
+         
+         <input type="number" id="phone number" name="phone" placeholder="(xxx) xxx-xxxx" required="required"/>
+         <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required"/>
+        
+         <br/>
+        
+      </div>
+   
+<div>
+<h4> Your little one(s):</h4>
+<label for="name">Child Name:<span class="required">*</span> </label>
+<input type="text" id="childfirstname" name="childFirstName" value="" placeholder="First Name" required="required" autofocus />
+<input type="text" id="childlastname" name="childFirstName" value="" placeholder="Last Name" required="required" autofocus />
+
+<br>
+
+<label for="name">Child Name:<span class="required"></span> </label>
+<input type="text" id="childfirstname_2" name="childFirstName2" value="" placeholder="First Name" autofocus />
+<input type="text" id="childlastname_3" name="childLastName2" value="" placeholder="Last Name" autofocus />
+
+<br>
+
+<label for="name">Child Name:<span class="required"></span> </label>
+<input type="text" id="childfirst_4" name="childFirstName3" value="" placeholder="First Name" autofocus />
+<input type="text" id="childlastname_5" name="childLastName3" value="" placeholder="Last Name" autofocus />
+
+
+
+</div>
+   
+    <div align="center">
+
+        <h4>What is a convinent time to reach you?</h4> 
+
+        <label for="message">Message: <span class="required">*</span>
+
+        </label>
+      <br>
+
+        <textarea id="message" name="message" cols="40" rows="10" placeholder="Write your message here!" required></textarea>
+
+    </div>
+ 
+    <div align="center">
+
+        <input type="submit" value="Submit" id="submit" />
+
+    </div>
+
+</form>
+<script>
+function validateForm()
+	{
+		var firstname = document.forms["myForm"]["firstName"].value;
+		var lastname = document.forms["myForm"]["lastName"].value;
+		var phone = document.forms["myForm"]["phone"].value;
+		var email = document.forms["myForm"]["email"].value;
+		var childfirstname = document.forms["myForm"]["childFirstName"].value;
+		var childlastname = document.forms["myForm"]["childLastName"].value;
+		var childfirstname2 = document.forms["myForm"]["childFirstName2"].value;
+		var childlastname2 = document.forms["myForm"]["childLastName2"].value;
+		var childfirstname3 = document.forms["myForm"]["childFirstName3"].value;
+		var childlastname3 = document.forms["myForm"]["childLastName3"].value;
+		
+		if (document.myForm.firstname.value =="")
+			{
+			alert("Please provide first name!");
+			document.myForm.firstname.focus();
+			return false;
+		}
+			if (document.myForm.submit.value == ""){
+				alert("Please fill out the box with the "*" beside it!");
+				document.myForm.submit.focus();
+				return false;
+		}
+		
+		if (document.myForm.submit.value =="")
+			    alert("Thank you for choosing ABC Daycare! We will contact you shortly");
+				return true;
+	}
+
+
+</script>
+
+
+
+
+      <!-- InstanceEndEditable --></article>
+  </main>
+  <footer class="navlink"> &#169; &nbsp; Copyright 2016 <a href="index.html">Home</a> 
+  <a href="about.html">About</a> 
+  <a href="location.html">Location</a> 
+  <a href="sign-up.html">Sign Up</a> 
+  <a href="contact-us.html">Contact Us</a> 
+  </footer>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+<!-- InstanceEnd --></html>
